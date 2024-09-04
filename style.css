@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+}
+
+
+body {
+    background: url("images/montanhas_universo.svg") no-repeat center center;
+    min-height: 100vh; /* Garante que o background cubra a altura total da viewport */
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-left: 20.2rem;
+    
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Coloca os elementos da lista em linha */
+}
+
+nav li{
+
+    margin-left: 7rem;
+    font-size: 2.4rem;
+
+}
+
+nav img{
+    margin-top: 4rem;
+    margin-left: 7.2rem;
+}
+
+a{
+    color: #C4C4CC;
+    text-decoration: none; /*remove os hiperlinks*/
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+a:hover {
+    color: #ffffff; /* Muda a cor quando o link é sobreposto */
+    transform: scale(1.1);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20rem); /* Ajuste para compensar o tamanho do header */
+    text-align: center;
+    margin-right: 12rem;
+}
+
+main h1 {
+    font-size: 4.8rem;
+    color: #E1E1E6;
+    margin-bottom: 2rem; /* Espaçamento entre o h1 e o botão */
+    font-family: "Roboto", sans-serif;
+   
+}
+
+main button {
+   
+    font-size: 1.4rem;
+    padding: 1.2rem 3.2rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+
+button:hover{
+    color: #02799D;
+    font-weight: bold;
+    background: white;
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 1.8rem;
+    font-family: "Roboto" , sans-serif;
+    color: #E1E1E6;
+    width: 64.8rem;
+    height: 26.1rem;
+    text-align: left;
+    line-height: 3.2rem;
+}
+
+
+#page{
+background: url("images/montanhas_universo.svg") no-repeat center center;
+min-height: 100vh; /* Garante que o background cubra a altura total da viewport */
+background-size: cover;
+}
+
+
+#page2{
+    min-height: 100vh; /* Garante que o background cubra a altura total da viewport */
+    background: url("images/montanha_universo2.svg") no-repeat center center;
+    background-size: cover;
+}
+
+#page3{
+    min-height: 100vh; /* Garante que o background cubra a altura total da viewport */
+    background: url("images/montanha_universo3.svg") no-repeat center center;
+    background-size: cover;
+}
